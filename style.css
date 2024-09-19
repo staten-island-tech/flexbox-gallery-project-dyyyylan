@@ -1,0 +1,142 @@
+body,
+html,
+*{
+font-size: 10px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.fINfpve-fCAXC-UtIqdqSwHaD4?rs=1&pid=ImgDetMain);
+}
+.bighead {
+    margin: auto;
+    border: solid 4px;
+    width: 40%;
+    text-align: center;
+    font-size: 6rem;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    border: solid 2px black;
+width: 38rem;
+height: 40rem;
+flex-direction: column;
+border-radius: 30px;
+padding: 10;
+background-color: black;
+margin: 7rem;
+justify-content: center;
+transition: 0.5s;
+}
+.card:hover {
+    transform: translateY(-50px);
+}
+.cardimg1 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg1:hover {
+    transform: scale(4, 2);
+    transition: 3s;
+}
+
+.cardhead1 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cardtext1 {
+font-size: 2rem;
+color: white;
+}
+.cardimg2 {
+    transition: 10s;
+height: 90%;
+width: 90%;
+}
+.cardimg2:hover {
+   transform: rotate(5turn);
+    transition: 10s;
+}
+
+.cardimg3 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg3:hover {
+    transform: matrix(6,4,5,7,10,1000);
+}
+
+.cardimg4 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg4:hover {
+    transform: translateX(100px);
+}
+
+.cardimg5 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg5:hover {
+    transform: skew(180deg, 180deg);
+}
+
+.cardimg6 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg6:hover {
+    transform: scale(4, 2);
+    transition: 3s;
+}
+
+.cardimg7 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg7:hover {
+    transform: scale(4, 2);
+    transition: 3s;
+}
+
+.cardimg8 {
+    transition: 500ms;
+    height: 90%;
+    width: 90%;
+}
+.cardimg8:hover {
+    transform: scale(4, 2);
+    transition: 3s;
+}
+
+.cardimg9 {
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: center;
+    height: 90%;
+    width: 90%;
+}
+.cardimg9:hover {
+  transform: scale(2, 2);
+
+}
