@@ -39,6 +39,7 @@ background-color: black;
 margin: 6rem;
 justify-content: center;
 transition: 0.5s;
+box-shadow: 10px 10px 10px violet;
 }
 .card:hover {
     transform: translateY(-50px);
