@@ -129,7 +129,7 @@ animation-duration: 1s;
     width: 90%;
 }
 .cardimg8:hover {
-    animation: fade-out;
+    animation: fade-out forwards;
     animation-duration: 9s;
 }
 
