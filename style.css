@@ -80,7 +80,7 @@ width: 90%;
     width: 90%;
 }
 .cardimg3:hover {
-    transform: matrix(6,4,5,7,10,1000);
+    transform: matrix(2,2,2,6,10,10);
 }
 
 .cardimg4 {
